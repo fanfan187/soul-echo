@@ -59,7 +59,7 @@ flowchart LR
         TTS[TTSClient<br/>阿里云 NLS 语音合成]
         API[REST Controller<br/>角色 / 知识库管理]
         EVT[KnowledgeUploadEvent<br/>Spring Event]
-        LSN[KnowledgeUploadListener<br/>@Async 异步监听器]
+        LSN["KnowledgeUploadListener<br/>@Async 异步监听器"]
         REDIS[(Redis / Redisson<br/>会话 · 对话历史 · 分布式锁)]
         DB[(MySQL / Flyway)]
     end
